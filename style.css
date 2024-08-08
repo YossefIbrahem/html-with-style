@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent-flex{
+    background-color: skyblue;
+    height: 8vh;
+  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.sechead{
+    text-align: center;
+    justify-content: center;
+}
+.parentofMidSection{
+    text-align: center;
+    display: flex;
+    height: 50vh;
+}
+.myphoto{
+    width: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: end;
+   align-items: center;
+   margin-top: 150px;
+}
+
+table{
+    width: 100px;
+}
+
+thead{
+
+    text-align: left;
+    background-color:#ddd;
+
+}
+th{
+text-align: left;
+}
+
+table, th, td {
+   border: 1px solid #000 ;
+   border-collapse: collapse;
+   
+}
+tbody tr:nth-child(odd) { 
+    background-color:  #fff;
+    color: #ddd;
+}
+tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+tfoot{
+    background-color: #E52B50;
+}
+
+
+.left{
+    background-color:blueviolet ;
+    color: #fff;
+    width: 33%;
+}
+main{
+    background-color:purple ;
+    color: #fff;
+    width: 34%;
+    text-align: start;
+    display: flex;
+    
+}
+.right{
+    background-color:hotpink ;
+    color: #fff;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Whatsapp{
+    width: 20px;
+    height: 20px;
+}
+.gmail{
+    width: 20px;
+    height: 20px;
+}
+.proj{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+
+}
+.mp{
+    background-color: skyblue;
+    height: 12vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.amazon{
+border-radius: 50%;
+height: 100px;
+width: 100px;
+}
+.safari{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.google{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.ha{
+    background-color: gold;
+    height: 10vh;
+}
+footer{
+    background-color: darkcyan;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
